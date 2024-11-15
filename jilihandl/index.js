@@ -10,11 +10,11 @@ const port = 3002;
 
 // Create a connection pool
 const pool = mysql.createPool({
-    host: 'localhost',
-    user: '55club',
-    password: '55club',
-    database: '55club'
-});
+    host: 'database-2.c1yu4u8uoxrf.ap-southeast-2.rds.amazonaws.com',
+    user: 'admin',
+    password: '8600988002',
+    database: 'real91',
+  });
 
 app.use(bodyParser.json());
 
